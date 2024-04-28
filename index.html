@@ -19,29 +19,34 @@
     <header>
       <div id="img"><img src="assets/images/illustration-sign-up-mobile.svg" alt="sign-up"></div>
     </header>
-    <section>
-      <div id="content"></div>
+    <section id="form">
+      <div id="content">
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
         <p><img src="assets/images/icon-list.svg" alt="list">Product discovery and building what matters</p>
         <p><img src="assets/images/icon-list.svg" alt="list">Measuring to ensure updates are a success</p>
         <p><img src="assets/images/icon-list.svg" alt="list">And much more!</p>
-        <div id="complete">
-          <label for="email"><strong>Email address</strong></label><br>
-          <input type="email" required id="email" placeholder="email@company.com" autocomplete="email"></input><br>
-          <button onclick="submit()">Subscribe to monthly newsletter</button>
-        </div>
+      </div>
+      <div id="complete">
+          <form id="emailForm">
+            <label for="email"><strong>Email address</strong></label><br>
+            <input type="email" required id="email" placeholder="email@company.com" autocomplete="email"></input><br>
+            <button type="submit">Subscribe to monthly newsletter</button>
+          </form>
       </div>
     </section>
     <!-- Sign-up form end -->
     <!-- Success message start -->
-    <section>
-      <div id="confirm">
-        Thanks for subscribing!
-        A confirmation email has been sent to ash@loremcompany.com.
-        Please open it and click the button inside to confirm your subscription.
-        Dismiss message
+    <section id="confirm">
+      <div>
+        <img src="assets/images/icon-success.svg" alt="sucesso">
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to ash@loremcompany.com.
+          Please open it and click the button inside to confirm your subscription.
+        </p>
       </div>
+        <button>Dismiss message</button>
     </section>
   </main>
 

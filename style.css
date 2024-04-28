@@ -15,14 +15,18 @@
 body, html {
     min-width: 96.8vw;
     min-height: 97.1vh;
-    font-family: roboto;
+    font-family: Roboto;
     font-weight: normal;
 }
 
+header {
+    display: ;
+}
+
 main {
-    min-height: 100%;
     display: flex;
     flex-direction: column;
+    height: 97vh;
 }
 
 #img > img {
@@ -32,31 +36,31 @@ main {
     overflow: auto;
 }
 
-section {
-    margin: 10px 30px;
+#form {
+    display: ;
 }
 
-section > h1 {
+section {
+    margin: 10px 30px;
+
+}
+
+section > div > h1 {
     font-size: 3em;
     font-weight: bold;
     margin: 25px;
 }
 
-section > p {
+section > div > p {
     font-size: 18px;
     margin: 25px;
 }
 
-section > p > img {
+section > div > p > img {
     margin-right: 15px;
 }
 
-#complete {
-    font-size: 18px;
-    padding: 10px;
-}
-
-#complete > input, button {
+input, button {
     width: 100%;
     min-height: 60px;
     padding: 10px;
@@ -66,12 +70,12 @@ section > p > img {
 
 }
 
-#complete > button {
+button {
     background-color: hsl(234, 29%, 20%);
     color: white;
 }
 
-#complete > button:hover {
+button:hover {
     background-image:linear-gradient(to right, hsl(4, 100%, 67%),  hsl(4, 90%, 60%));
     font-weight: bold;
     box-shadow: 0px 10px 10px hsla(4, 100%, 67%, 0.479);
@@ -80,7 +84,35 @@ section > p > img {
 
 #confirm {
     display: none;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
+
+#confirm > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 88vh;
+}
+
+#confirm > div > img {
+    position: relative;
+    top: -70px; left: -180px;
+    width: 20%;
+}
+
+#confirm > div > h1 {
+    font-size: 4em;
+}
+
+#confirm > div > p {
+   
+    font-size: 21px;
+}
+
+
 
 footer {
     font-weight: bold;
