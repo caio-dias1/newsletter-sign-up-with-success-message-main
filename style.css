@@ -26,7 +26,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    height: 97vh;
+    min-height: 97vh;
 }
 
 #img > img {
@@ -46,13 +46,13 @@ section {
 }
 
 section > div > h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     margin: 25px;
 }
 
 section > div > p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 25px;
 }
 
@@ -66,7 +66,7 @@ input, button {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
@@ -104,7 +104,7 @@ button:hover {
 }
 
 #confirm > div > h1 {
-    font-size: 4em;
+    font-size: 2em;
 }
 
 #confirm > div > p {
@@ -119,6 +119,7 @@ footer {
     text-align: center;
     padding: 8px;
     color: black;
+    font-size: 16px;
 }
 
 #attribution > a {
