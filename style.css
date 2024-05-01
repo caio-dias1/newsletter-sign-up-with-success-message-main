@@ -42,7 +42,7 @@ main {
 
 
 section {
-    margin: 10px 30px;
+    margin: 10px 20px;
 
 }
 
@@ -62,17 +62,17 @@ section > div > p > img {
 }
 
 #emailForm > label {
-    margin-top: 25px;
-    margin-left: 10px;
 }
 
 input, button {
     width: 100%;
     min-height: 60px;
     padding: 10px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 15px;
     border-radius: 10px;
     font-size: 16px;
+    
 
 }
 
