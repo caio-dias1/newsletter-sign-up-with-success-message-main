@@ -8,6 +8,7 @@ document.getElementById('emailForm').addEventListener('submit', function(event) 
         img.style.display = 'none'
         form.style.display = 'none'
         confirm.style.display = 'flex'
+        document.getElementById('emailRetorno').innerHTML = `<strong>${email}</strong>`
     } else {
         window.alert('Digite um email valido!')
     }
