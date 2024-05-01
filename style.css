@@ -40,6 +40,7 @@ main {
     display: ;
 }
 
+
 section {
     margin: 10px 30px;
 
@@ -48,16 +49,21 @@ section {
 section > div > h1 {
     font-size: 2em;
     font-weight: bold;
-    margin: 25px;
+    margin-top: 25px;
 }
 
-section > div > p {
+#form > div > p {
     font-size: 16px;
-    margin: 25px;
+    line-height: 55px;
 }
 
 section > div > p > img {
     margin-right: 15px;
+}
+
+#emailForm > label {
+    margin-top: 25px;
+    margin-left: 10px;
 }
 
 input, button {
@@ -106,6 +112,7 @@ button:hover {
 
 #confirm > div > h1 {
     font-size: 3em;
+    margin-bottom: 25px;
 }
 
 #confirm > div > p {
