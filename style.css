@@ -91,24 +91,25 @@ button:hover {
 
 #confirm > div {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 88vh;
+    min-height: 88vh;
+    min-width: 90vw;
+    
 }
 
 #confirm > div > img {
     position: relative;
-    top: -70px; left: -180px;
+    top: -70px; left: 20px;
     width: 20%;
 }
 
 #confirm > div > h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #confirm > div > p {
-   
+   text-align: left;
     font-size: 21px;
 }
 
