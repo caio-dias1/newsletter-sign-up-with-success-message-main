@@ -30,9 +30,7 @@ main {
 }
 
 #img > img {
-    width: 100%;
-    min-height: 30vh;
-
+    width: 100%
 }
 
 #form {
@@ -53,7 +51,7 @@ section > div > h1 {
 
 #form > div > p {
     font-size: 16px;
-    line-height: 50px;
+    margin-top: 20px;
 }
 
 #content {
@@ -114,12 +112,17 @@ button:hover {
 
 #confirm > div > h1 {
     font-size: 3em;
-    margin-bottom: 25px;
+    margin: 0px 20px 20px 20px;
 }
 
 #confirm > div > p {
    text-align: left;
     font-size: 21px;
+    margin: 0px 20px 20px 20px;
+}
+
+#confirm > button {
+    width: 95%;
 }
 
 
@@ -151,10 +154,31 @@ footer {
         align-items: center;
     }
 
+    #img {
+        border-radius: 15px;
+        overflow: hidden;
+        
+    }
+
+    #img > img {
+        height: 100%;
+    }
+
     #form {
         background-color: white;
-        width: 500px;
+        max-width: 85%;
+        border-radius: 15px;
     }
+
+    #confirm > div {
+        background-color: white;
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 
   
 }
