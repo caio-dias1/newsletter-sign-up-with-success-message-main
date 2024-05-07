@@ -144,9 +144,9 @@ footer {
     color:hsl(4, 100%, 67%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 805px) {
     body {
-        background-color: darkgray;
+        background-color: hsl(235, 18%, 26%);
     }
     main {
         display: flex;
@@ -155,19 +155,44 @@ footer {
     }
 
     #img {
+        display: flex;
+        justify-content: flex-end;
         border-radius: 15px;
         overflow: hidden;
+        margin: 10px;
+
         
     }
 
     #img > img {
+        
+        width: auto;
         height: 100%;
     }
 
     #form {
         background-color: white;
-        max-width: 85%;
+        display: flex;
+        height: 100%;
+        min-width: 800px;
         border-radius: 15px;
+        font-size: 21px;
+    }
+
+    #content {
+        flex: 1;
+        width: 50%;
+        
+    }
+
+    #complete {
+         width: 50%;
+
+        
+    }
+
+    #confirm {
+        flex: 1;
     }
 
     #confirm > div {
