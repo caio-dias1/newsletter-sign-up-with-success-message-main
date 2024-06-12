@@ -198,19 +198,30 @@ footer {
     #confirm {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         background-color: white;
         margin: auto;
         height: 800px;
         width: 800px;
+        padding: 20px;
+        border-radius: 30px;
     }
-    #confirm > div {
+
+    #confirm > h1 {
+        font-size: 50px;
+        wid
+    }
+
+    #confirm > p {
+        font-size: 25px;
+    }
+    #confirm > img {
+        display: flex
+    }
+
+    #confirm > button {
 
     }
-    #confirm > div > img {
-        width: 100px;
-    }
-    
 
 
 
