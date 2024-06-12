@@ -148,19 +148,13 @@ footer {
     body {
         background-color: hsl(235, 18%, 26%);
     }
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     #img {
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
-        height: 100%;
         width: 50%;
-        padding: 10px;
+        padding: 2px;
         border-radius: 15px;
         overflow: hidden;
         margin: 10px;
@@ -170,14 +164,15 @@ footer {
 
     #img > img {
         width: auto;
-        height: 100%;
+        min-height: 100%;
+        background-size: cover;
     }
 
     #form {
         background-color: white;
         display: flex;
         height: 80%;
-        min-width: 800px;
+        min-width: 80%;
         border-radius: 15px;
         font-size: 21px;
         padding: 10px;
@@ -201,16 +196,21 @@ footer {
     }
 
     #confirm {
-        flex: 1;
-    }
-
-    #confirm > div {
-        background-color: white;
-        max-width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: white;
+        margin: auto;
+        height: 800px;
+        width: 800px;
     }
+    #confirm > div {
+
+    }
+    #confirm > div > img {
+        width: 100px;
+    }
+    
 
 
 
